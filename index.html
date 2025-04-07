@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span style="color: rgb(1, 199, 239); font-size: 1.5rem"
+          >ARIZ ARSHAL</span
+        >
+        <h1>Self-taught Front End Developer</h1>
+        <p>
+          I build websites with a focus on responsive design and accessibility.
+        </p>
+      </div>
+      <a href="#projects" class="scroll-btn">
+        <span>scroll</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="blog.html" class="blog-btn">Blog</a></li>
+          <li><a href="static/ArizArshal_CV.pdf" download class="cv-btn">
+            <i class="fas fa-download"></i> Download CV
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects <i class="fas fa-laptop-code"></i></h2>
+      <p class="project-subtitle">
+        Over the course of my career as a front-end developer, I've built
+        several websites and applications. These are some of them:
+      </p>
+      <div class="project-container">
+        <div class="project-grid">
+          <!-- First Card -->
+          <div class="project-card">
+            <img src="static/chatakk.png" alt="Delivery Website" />
+            <div class="project-card-content">
+              <h3>Chatakk Delivery</h3>
+              <p>A Delivery website wirh Google Maps API booking system</p>
+              <div class="tech-stack">
+                <span>JavaScript</span>
+                <span>NodeJs</span>
+                <span>MongoDB</span>
+                <span>Google Maps API</span>
+                <span>Admin Panel</span>
+              </div>
+              <div class="project-links">
+                <a href="https://chatakk.com/" target="_blank">Visit Site</a>
+                <a href="#" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="project-card">
+            <img src="static/natours.png" alt="Travels Booking Website" />
+            <div class="project-card-content">
+              <h3>Natours Travels</h3>
+              <p>Book your travel journey with Natours</p>
+              <div class="tech-stack">
+                <span>Pug</span>
+                <span>JavaScript</span>
+                <span>NodeJs</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">Visit Site</a>
+                <a href="https://github.com/arizarshal/innovacio_v2.git" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+          <div class="project-card">
+            <img src="static/Freecodecamp Certificate.png" alt="Freecodecamp cerification" />
+            <div class="project-card-content">
+              <h3>Back End Development and APIs</h3>
+              <p>5 integrated API based projects </p>
+              <div class="tech-stack">
+                <span>Javascript</span>
+                <span>API</span>
+                <span>Node JS</span>
+                <span>Github</span>
+                <span>Hosting</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.freecodecamp.org/certification/arizarshal/back-end-development-and-apis" target="_blank">View Certification</a>
+                <a href="https://github.com/arizarshal/fcc-exercise_tracker.git" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fourth Card -->
+          <div class="project-card">
+            <img src="static/innovacio.png" alt="Company Website Backend" />
+            <div class="project-card-content">
+              <h3>Backend and Dashboard</h3>
+              <p>
+                Real-time Blog post and user management system for the company
+              </p>
+              <div class="tech-stack">
+                <span>Javascript</span>
+                <span>NodeJS</span>
+                <span>MongoDB</span>
+                <span>NginX</span>
+                <span>Putty</span>
+                <span>Deployment</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.innovaciotech.com/" target="_blank">Visit Site</a>
+                <a href="https://github.com/arizarshal/innovacio_v2.git" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>My Skills <i class="fas fa-code"></i></h2>
+      <div class="skills-grid">
+        <button class="skill-btn">HTML</button>
+        <button class="skill-btn">CSS</button>
+        <button class="skill-btn">JavaScript</button>
+        <button class="skill-btn">Node Js</button>
+        <button class="skill-btn">MongoDB</button>
+        <button class="skill-btn">REST API</button>
+        <button class="skill-btn">Responsive Design</button>
+        <button class="skill-btn">Github</button>
+      </div>
+    </section>
+
+    <!-- Remove entire contact section and go straight to footer -->
+    <footer>
+      <h3>Reach me</h3>
+      <div class="footer-socials">
+        <a href="https://github.com/arizarshal" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ariz-arshal" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/ariz_marshall" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <div class="phone-container">
+          <i class="fas fa-phone"></i>
+          <span class="phone-number">+91 90738 87008</span>
+        </div>
+      </div>
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
